@@ -28,6 +28,7 @@ export default {
           { title: "Green", value: "green" },
           { title: "Blue", value: "blue" },
           { title: "Purple", value: "purple" },
+          { title: "Teal", value: "teal" },
           { title: "Orange", value: "orange" }
         ]
       }

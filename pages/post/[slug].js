@@ -136,7 +136,7 @@ export default function Post(props) {
                           parseISO(
                             post?.publishedAt || post._createdAt
                           ),
-                          "MMMM dd, yyyy"
+                          "dd/mm/yyyy"
                         )}
                       </time>
                       <span>

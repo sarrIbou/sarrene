@@ -6,6 +6,7 @@ export default function Label(props) {
     blue: "text-blue-600",
     orange: "text-orange-700",
     purple: "text-purple-600",
+    teal: "text-teal-600",
     pink: "text-pink-600"
   };
   return (
