@@ -9,6 +9,7 @@ import blockContent from "./blockContent";
 import category from "./category";
 import post from "./post";
 import author from "./author";
+import member from "./member";
 import user from "./user";
 import account from "./account";
 import verificationToken from "./verification-token";
@@ -25,6 +26,7 @@ export default createSchema({
     // in the studio.
     post,
     author,
+    member,
     category,
     siteconfig,
     blockContent,
