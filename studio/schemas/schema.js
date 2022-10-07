@@ -9,6 +9,9 @@ import blockContent from "./blockContent";
 import category from "./category";
 import post from "./post";
 import author from "./author";
+import user from "./user";
+import account from "./account";
+import verificationToken from "./verification-token";
 import siteconfig from "./siteConfig";
 
 // Then we give our schema to the builder and provide the result to Sanity
@@ -24,8 +27,9 @@ export default createSchema({
     author,
     category,
     siteconfig,
-    // When added to this list, object types can be used as
-    // { type: 'typename' } in other document schemas
-    blockContent
+    blockContent,
+    user,
+    account,
+    verificationToken
   ])
 });
